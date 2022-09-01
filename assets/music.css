@@ -1,0 +1,25 @@
+.background__music{
+    z-index: 1000;
+    position: fixed;
+    bottom: 30px;
+    left:30px;
+}
+
+
+.music__control{
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 99999px;
+    border: 1px solid var(--primary);
+    color:var(--primary);
+    display: none;
+}
+
+.music__control.active{
+    display: block;
+}
+
+.music__control:hover{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+}

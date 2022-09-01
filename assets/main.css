@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary: #37b8a5;
+    --text-size: 1.6rem;
+    --title-size: 3.5rem;
+    --text-color: #293849;
+    --background: #f8fafb;
+    --light-text:#f8fafb;
+    --border-radius: 8px;
+    --font-content:'Delius', cursive ,'Nunito', sans-serif;
+    --font-title:  'Delius', cursive, 'Nunito', sans-serif;
+    --margin-block : 90px;
+    --padding--title: 40px;
+    --padding-element: 90px;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Delius', cursive  ;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    overflow-X: hidden;
+}
+

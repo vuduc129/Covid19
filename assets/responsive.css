@@ -1,0 +1,144 @@
+@media (max-width: 740px) {
+
+    .header{
+        height: 50px;
+        margin-top: 10px;
+        left: 30px;
+        border-top-left-radius: 999px ;
+        border-bottom-left-radius: 999px ;
+        transform: translateX(100%);
+        background-color: var(--primary);
+
+    }
+
+    .header.active{
+        transform: translateX(0);
+
+    }
+
+    .navbar__item{
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+    .header__navbar-open{
+        display: flex;
+        z-index: 101
+
+    }
+    
+    .header__navbar-open.active{
+        transform: translateX(-700%);
+    }
+
+    .right__content-title, .second__content-title,.slider__title,.solution__title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .slider__title{
+        font-size: 1rem;
+    }
+
+    .slider__content{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+
+    .second__content{
+        padding: 0;
+    }
+
+    .right__content-paragraph{
+        font-size: 1.2rem;
+        font-weight:400;
+    }
+    
+    .second__content-paragraph,.solution__desc {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight:400;
+    }
+
+    .content__map{
+        padding: var(--padding--title) 0;
+    }
+    .map__detail-volume{
+        font-size: 1rem;
+    }
+
+    .map__detail{
+        mac-height:200px;
+    }
+
+    .map__detail-color{
+        width: 15px;
+        height: 15px;
+        margin-right: 0;
+    }
+
+    .slider__container{
+        max-height: 200px;
+    }
+
+    .slider{
+        max-height: 200px;
+    }
+
+    .slider__img{
+        max-height: 200px;
+    }
+
+    .solution__cards{
+        overflow-x: scroll;
+    }
+
+    
+}
+
+@media (min-width: 1113px) {
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px){
+
+
+    .header.visible{
+        background-color: var(--primary);
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    }
+    
+    .header.visible .navbar__item{
+        color:white;
+    }
+
+    .map{
+        transform: translateX(-100%);
+        transition: all 0.8s ease-in-out;
+
+    }
+
+    .map__detail{
+        transform: translateX(105%);
+        transition: all 0.8s ease-in-out;
+
+    }
+    .content__map.active .map{
+        transform: translateX(0);
+        opacity: 1;
+    
+    
+    }
+    
+    .content__map.active .map__detail{
+        transform: translateY(0);
+        opacity: 1;
+    
+    }
+
+}

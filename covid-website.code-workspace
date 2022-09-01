@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Food-review-website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "covid-website"
+	}
+}

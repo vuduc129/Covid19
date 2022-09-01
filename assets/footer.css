@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 0 20px;
+    margin: 60px 0 0 0;
+}
+
+.footer__column{
+    margin: 30px 0;
+}
+
+.footer__list{
+    list-style-type: none;
+}
+
+.footer__item{
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
